@@ -22,7 +22,7 @@ jobs:
       - name: Run Linter
         run:  flake8
       - name: Run Vulture
-        run:  vulture dags --min-confidence 100
+        run:  vulture scripts formation_indus_ds_avancee --min-confidence 100
       - name: Run tests
         run:  "Trainee should add command to run test"
 
