@@ -10,7 +10,7 @@ spec:
     # IMPORTANT: Remplacer par l'URL de votre repository GitOps réel
     repoURL: https://github.com/valewicz/Formation-MLOps-2.git  # À PERSONNALISER
     targetRevision: HEAD
-    path: apps/my-app
+    path: deploy/my-app
 
   destination:
     server: https://kubernetes.default.svc
